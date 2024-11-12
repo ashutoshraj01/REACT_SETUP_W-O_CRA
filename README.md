@@ -76,3 +76,31 @@ Setting up react application without using create react app(cra).
     - The build command asks us to build this package in main.js file. It actually runs all logic in webpack.config.js file.
 
 13. Run `npm run build`. it generates main.js file in our public folder. The file is actually over 1 MB in size. This is our development build.
+
+14. Start the application by giving `npm start` from terminal. This will start our dev server.
+
+15. Now we can try changing it to production build. For this you need to make the following change to webpack.config.js file.
+    `mode: "production"`
+
+    - Now running npm run build will create main.js file again but the size will be very less (<200kb).
+      With the optimization from 1000 KB to 200 KB, we might want to use production build always. But, we should use development mode while doing development because the hot reloading is faster in development mode.
+
+16. HMR is handled by webpack-dev-server. We can use HMR without page load option too. Setting the required options helps greatly in performance aspect.
+
+            `//If you want to use HMR but no live reload then use the below config in webpack.config.js
+            devServer: {
+                    hot: true ,
+                    liveReload:false
+                }
+
+            //If you want don't want to use HMR but want to use live reload then,
+            devServer: {
+                    hot: false ,
+                    liveReload: true
+                },
+
+            //If you want don't want to use live reload then,
+            devServer: {
+                    hot: false , //this is mandatory to be set to false for this
+                    liveReload: false
+                },`
