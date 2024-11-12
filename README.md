@@ -68,3 +68,11 @@ Setting up react application without using create react app(cra).
 10. Create a file called webpack.config.js at the root of project and add the following code. On a higher note, this file contains configs that takes care of bundling the files into one single file and setting up the dev server.
 
 11. Create a file called .babelrc at the root.
+
+12. Update package.json file
+
+    - Add the start and build scripts to it.
+    - The start script asks to run the webpack-dev-server in our current project at port 9500, from the public folder.
+    - The build command asks us to build this package in main.js file. It actually runs all logic in webpack.config.js file.
+
+13. Run `npm run build`. it generates main.js file in our public folder. The file is actually over 1 MB in size. This is our development build.

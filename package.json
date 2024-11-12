@@ -4,6 +4,8 @@
   "description": "Setting up react application without using create react app(cra).",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server .",
+    "build": "Webpack .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ashutosh Raj",
