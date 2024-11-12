@@ -48,3 +48,5 @@ Setting up react application without using create react app(cra).
 
    - Install react and react-dom
      `npm i react react-dom`
+
+7.
