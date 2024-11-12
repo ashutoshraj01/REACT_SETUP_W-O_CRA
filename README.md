@@ -41,3 +41,10 @@ Setting up react application without using create react app(cra).
    - Install required Linters and path
 
    `npm i --save-dev eslint eslint-config-airbnb-base eslint-plugin-jest eslint-config-prettier path`
+
+6. **React & React Dom**
+
+   - The ReactDOM in React is responsible for rendering the elements or Components in the actual DOM of the web page. It is a package in React that provides DOM-specific methods that can be used at the top level of a web app to enable an efficient way of managing DOM elements of the web page. ReactDOM provides the developers with an API containing the various methods to manipulate DOM.
+
+   - Install react and react-dom
+     `npm i react react-dom`
