@@ -8,7 +8,7 @@ Setting up react application without using create react app(cra).
 2. Create a project folder of any name and navigate to the folder and then use 'npm init' to create a package.json file inside the folder. Navigate to the folder.
 
 3. **webpack**
-   [Know More](https://www.google.com)
+   [Know More](https://github.com/ashutoshraj01/REACT_SETUP_W-O_CRA/blob/main/webpack.md)
 
    - Install webpack dependencies
 

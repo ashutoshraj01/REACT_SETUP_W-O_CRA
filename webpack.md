@@ -23,24 +23,24 @@
 - Since it supports a module system that’s why files will be treated as modules hence we can use one file’s features into another.
   Despite having different files, we can access the same benefit. So it actually helps us in splitting our code into different modules.
 
-  \_ It provides Minification :
+\_ It provides Minification :
 
-  - Minification means minimizing the code without changing its functionality. It removes all the whitespace, line breaks that are consuming spaces. It also removes unnecessary code and changes the long variable names. So doing this reduces file size and minimizes the code.
+- Minification means minimizing the code without changing its functionality. It removes all the whitespace, line breaks that are consuming spaces. It also removes unnecessary code and changes the long variable names. So doing this reduces file size and minimizes the code.
 
-  \_ It supports feature flagging :
+\_ It supports feature flagging :
 
-  - Feature flagging is a software engineering approach by which we send code to different environments during feature testing.
-    So webpack not only helps in development, it helps in testing as well.
+- Feature flagging is a software engineering approach by which we send code to different environments during feature testing.
+  So webpack not only helps in development, it helps in testing as well.
 
-    \_ Tree Shaking :
+\_ Tree Shaking :
 
-    - Webpack supports tree shaking, a process that eliminates dead code from the final bundle. This means that unused code or modules will not be included in the production build, resulting in a smaller bundle size.
+- Webpack supports tree shaking, a process that eliminates dead code from the final bundle. This means that unused code or modules will not be included in the production build, resulting in a smaller bundle size.
 
-    \_ Dynamic Imports: :
+\_ Dynamic Imports: :
 
-    - With dynamic imports, Webpack allows you to load modules asynchronously when needed. This can improve the initial page load time by only fetching the necessary code when a specific feature is accessed.
+- With dynamic imports, Webpack allows you to load modules asynchronously when needed. This can improve the initial page load time by only fetching the necessary code when a specific feature is accessed.
 
-    \_ Code Analysis and Profiling :
+\_ Code Analysis and Profiling :
 
-    - Webpack provides tools for code analysis and profiling, helping developers identify bottlenecks and optimise their applications.
-      This is crucial for achieving optimal performance and ensuring a smooth user experience
+- Webpack provides tools for code analysis and profiling, helping developers identify bottlenecks and optimise their applications.
+  This is crucial for achieving optimal performance and ensuring a smooth user experience
