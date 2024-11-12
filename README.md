@@ -36,7 +36,7 @@ Setting up react application without using create react app(cra).
 - **@babel/cli** - Command line to use babel.
 
 5. **Linters**
-   [Know More](https://github.com/ashutoshraj01/REACT_SETUP_W-O_CRA/blob/main/Babel.md)
+   [Know More](https://github.com/ashutoshraj01/REACT_SETUP_W-O_CRA/blob/main/Linters.md)
 
    - Install required Linters and path
 
