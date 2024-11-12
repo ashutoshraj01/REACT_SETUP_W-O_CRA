@@ -21,7 +21,7 @@ Setting up react application without using create react app(cra).
 4. **Babel**
    [Know More](https://github.com/ashutoshraj01/REACT_SETUP_W-O_CRA/blob/main/Babel.md)
 
-- Install babel dependencies
+   - Install babel dependencies
 
-`npm i --save-dev babel-loader @babel/preset-env @babel/core @babel/plugin-transform-runtime @babel/preset-react @babel/eslint-parser 
+   `npm i --save-dev babel-loader @babel/preset-env @babel/core @babel/plugin-transform-runtime @babel/preset-react @babel/eslint-parser 
 @babel/runtime @babel/cli`
