@@ -25,3 +25,12 @@ Setting up react application without using create react app(cra).
 
    `npm i --save-dev babel-loader @babel/preset-env @babel/core @babel/plugin-transform-runtime @babel/preset-react @babel/eslint-parser 
 @babel/runtime @babel/cli`
+
+- **babel-loader** - Allows transpiling JavaScript files using babel and webpack. exposes a loader-builder utility that allows users to add custom handling of Babel’s configuration for each file that it processes.
+- **@babel/preset-env** - Allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). This both makes your life easier and JavaScript bundles smaller!
+- **@babel/core** - Main package.
+- **@babel/plugin-transform-runtime** - A plugin that enables the re-use of Babel’s injected helper code to save on codesize.
+- **@babel/preset-react** - use react preset when we are using Reactjs. Helps in converting html files to react based file.
+- **babel-eslint** - Parser that allows ESLint to run on source code that is transformed by Babel.
+- **@babel/runtime** - Package that contains a polyfill and many other things that Babel can reference.
+- **@babel/cli** - Command line to use babel.
