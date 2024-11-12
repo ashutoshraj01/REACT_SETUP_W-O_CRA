@@ -66,3 +66,5 @@ Setting up react application without using create react app(cra).
 9.  Create an index.js file at the root of project. This will act as entry point for our webpack.
 
 10. Create a file called webpack.config.js at the root of project and add the following code. On a higher note, this file contains configs that takes care of bundling the files into one single file and setting up the dev server.
+
+11. Create a file called .babelrc at the root.
