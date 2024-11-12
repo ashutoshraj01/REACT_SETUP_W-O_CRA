@@ -1,2 +1,2 @@
-# REACT_SETUP_W-O_CRA
+# React_Setup_Without_CRA
 Setting up react application without using create react app(cra).
