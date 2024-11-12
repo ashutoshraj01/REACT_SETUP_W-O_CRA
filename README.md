@@ -19,7 +19,7 @@ Setting up react application without using create react app(cra).
    * **webpack-dev-server** - Webpack dev server is a mini Node.js Express server.It uses a library called SockJS to emulate a web socket. Will enable us to create a localhost dev environment.
 
 4. **Babel**
-   [Know More](https://github.com/ashutoshraj01/REACT_SETUP_W-O_CRA/blob/main/webpack.md)
+   [Know More](https://github.com/ashutoshraj01/REACT_SETUP_W-O_CRA/blob/main/Babel.md)
 
 - Install babel dependencies
 
