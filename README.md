@@ -34,3 +34,10 @@ Setting up react application without using create react app(cra).
 - **babel-eslint** - Parser that allows ESLint to run on source code that is transformed by Babel.
 - **@babel/runtime** - Package that contains a polyfill and many other things that Babel can reference.
 - **@babel/cli** - Command line to use babel.
+
+5. **Linters**
+   [Know More](https://github.com/ashutoshraj01/REACT_SETUP_W-O_CRA/blob/main/Babel.md)
+
+   - Install required Linters and path
+
+   `npm i --save-dev eslint eslint-config-airbnb-base eslint-plugin-jest eslint-config-prettier path`
