@@ -4,7 +4,7 @@
 
 **Pros**
 
--Using webpack and babel together offers a range of advantages. You can write your code in a modern and consistent way, while taking advantage of the latest JavaScript features and syntax. Additionally, you can use other languages or frameworks that compile to JavaScript, such as TypeScript, React, or Vue. Furthermore, webpack and babel allow you to split your code into smaller and reusable modules, making it simpler to maintain and test. Finally, you can optimize your code for speed and size by using features such as code splitting, tree shaking, or caching.
+- Using webpack and babel together offers a range of advantages. You can write your code in a modern and consistent way, while taking advantage of the latest JavaScript features and syntax. Additionally, you can use other languages or frameworks that compile to JavaScript, such as TypeScript, React, or Vue. Furthermore, webpack and babel allow you to split your code into smaller and reusable modules, making it simpler to maintain and test. Finally, you can optimize your code for speed and size by using features such as code splitting, tree shaking, or caching.
 
 **Cons**
 
