@@ -1,0 +1,11 @@
+{
+  "name": "react_setup_without_cra",
+  "version": "1.0.0",
+  "description": "Setting up react application without using create react app(cra).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashutosh Raj",
+  "license": "ISC"
+}
